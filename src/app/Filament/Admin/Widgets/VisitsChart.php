@@ -10,6 +10,7 @@ class VisitsChart extends ChartWidget
 {
     protected static ?string $heading = 'Tren Kunjungan Harian';
     protected static ?int $sort = 2; // Urutan di dasbor
+    protected static ?string $maxHeight = '350px';
 
     public ?string $filter = 'month';
 
